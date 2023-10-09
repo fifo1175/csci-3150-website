@@ -14,4 +14,13 @@
     width: 40em;
     margin-left: auto;
     margin-right: auto;
+    background-color: #FFC99A;
+}
+
+h1, h2, h3 {
+    font-family: 'Prata', serif;
+}
+
+p {
+    font-family: 'Red Hat Display', sans-serif;
 }
