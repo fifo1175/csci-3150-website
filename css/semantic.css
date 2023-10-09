@@ -17,11 +17,17 @@
     background-color: #FFC99A;
 }
 
-h1, h2, h3 {
+h1, h2, h3, ul {
     font-family: 'Prata', serif;
+}
+
+ul {
+    font-size: large;
+    line-height: 2em;
 }
 
 p {
     font-family: 'Red Hat Display', sans-serif;
     line-height: 1.5em;
+    font-size: large;
 }
