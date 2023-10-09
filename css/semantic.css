@@ -9,3 +9,8 @@
     white-space: nowrap;
     width: 1px;
 }
+
+p{
+    max-width: 200px;
+    word-wrap: break-word;
+}
