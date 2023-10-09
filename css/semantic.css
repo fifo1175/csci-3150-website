@@ -11,7 +11,7 @@
 }
 
 p{
-    max-width: 200px;
+    max-width: 100ch;
     word-wrap: break-word;
     line-height: 1.5;
     font-size: large;
