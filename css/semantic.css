@@ -43,3 +43,7 @@ table {
     text-indent: initial;
     border-spacing: 2px;
 }
+
+section {
+    display: block;
+}
