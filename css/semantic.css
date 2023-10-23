@@ -35,19 +35,22 @@ p {
 tr {
     display: table-row;
     vertical-align: inherit;
+    border-bottom: 1px;
     border-color: black;
 }
 
-th {
+th, td{
     display: table-cell;
     vertical-align: inherit;
+    border-bottom: 1px solid black;
+    padding: 5px;
     font-weight: bold;
-    text-align: -internal-center;
+    text-align: center;
 }
 
 table {
     display: table;
-    border-collapse: separate;
+    border-collapse: collapse;
     box-sizing: border-box;
     text-indent: initial;
     border-spacing: 2px;
