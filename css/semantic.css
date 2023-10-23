@@ -38,12 +38,27 @@ tr {
     border-color: black;
 }
 
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
 table {
-    border-collapse: collapse;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
     text-indent: initial;
     border-spacing: 2px;
+    border-color: gray;
 }
 
 section {
     display: block;
+}
+
+body {
+    display: block;
+    margin: 8px;
 }
