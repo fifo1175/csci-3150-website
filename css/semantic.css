@@ -35,7 +35,7 @@ p {
 tr {
     display: table-row;
     vertical-align: inherit;
-    border-color: inherit;
+    border-color: black;
 }
 
 table {
