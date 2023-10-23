@@ -31,3 +31,15 @@ p {
     line-height: 1.5em;
     font-size: large;
 }
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    text-indent: initial;
+    border-spacing: 2px;
+}
