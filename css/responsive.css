@@ -2,6 +2,13 @@ body {
     background:white
 }
 
+p {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1, h2, h3, ul {
+    font-family: 'Prata', serif;
+}
 
 /* css reset */
 *,
@@ -20,7 +27,7 @@ h3 {
 
 p {
     margin: 1.8em 0;
-    line-height: 1.8em;
+    line-height: 1.4em;
 }
 
 header,
@@ -55,12 +62,12 @@ footer {
     "foot1    foot1   foot1";
 }
 
-header {grid-area: header1; background: red;}
-nav {grid-area: nav1; background: lightcoral;}
-main {grid-area: main1; background: lightcoral;}
-#aside1 {grid-area: aside1; background: palegreen;}
-#aside2 {grid-area: aside2; background: palegreen;}
-footer {grid-area: foot1; background: red;}
+header {grid-area: header1; background: #F26D67;}
+nav {grid-area: nav1; background: #FFA337;}
+main {grid-area: main1; background: #72D46B;}
+#aside1 {grid-area: aside1; background: #44BCDF;}
+#aside2 {grid-area: aside2; background: #44BCDF;}
+footer {grid-area: foot1; background: #F26D67;}
 
 nav ul {
     display: flex;
@@ -74,7 +81,7 @@ nav ul li {
 
 /* media query for medium/tablet */
 @media screen
-    and (min-width: 641px)
+    and (min-width: 650px)
     and (max-width: 900px) {
         .container {
             grid-template-columns: 
@@ -96,6 +103,7 @@ nav ul li {
             1fr;
             grid-template-areas:
             "header1"
+            "nav1"
             "main1"
             "aside1"
             "aside2"
