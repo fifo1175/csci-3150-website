@@ -2,25 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&family=Red+Hat+Display&display=swap" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Welcome to my CSCI 3150 Website</h1>
-    <h3>A site by Finbar Forward</h3>
-    <ul>
-        <li><a href="lab2.html">Lab 2</a></li>
-        <li><a href="lab3.html">Lab 3</a></li>
-        <li><a href="lab4.html">Lab 4</a></li>
-    </ul>
-    <div>
-        <h3>About Me</h3>
-        <ul>
-            <li>I am a 5th year Computer Science Student</li>
-            <li>I am minoring in business and philosphy</li>
-            <li>I love to skateboard and snowboard</li>
-        </ul>
+    <div class="container">
+        <header>
+            <h1 id="title">Welcome to my CSCI 3150 Website</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="lab2.html">Lab 2</a></li>
+                <li><a href="lab3.html">Lab 3</a></li>
+                <li><a href="lab4.html">Lab 4</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="aboutme">
+                <h3>About Me</h3>
+                <p>My name is Finbar Forward and I am fifth year Computer Science student in my last semester at CU Boulder.  I'm also minoring in business and philosophy.  My favorite class at CU has been Big Data Architecture.</p>
+                <p>I enjoy spending time skateboarding, playing and watching soccer (go Tottenham), traveling and snowboarding. I love Mexican and Asian food, specifically Indian and Nepalese food (Sherpa kitchen on Arapahoe is my favorite in Boulder).
+                    After college, I'll start as a full time software engineer where I work now as an intern and I hope to make the most of remote work by traveling as much as possible. </p>
+            </section>
+        </main>
+        <aside id="aside1">
+            <img src="Resources/swiss.PNG" alt="finbar">
+          </aside>
+          <aside id="aside2">
+            <img src="Resources/snowboarding.PNG" alt="finbar">
+          </aside>
+          <footer>
+            <small> designed by Finbar Forward</small>
+          </footer>
     </div>
 
 </body>
