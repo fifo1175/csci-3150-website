@@ -11,7 +11,8 @@ h1, h2, h3, ul {
 }
 
 #title {
-    border: black 1px solid;
+    border: 2px rgb(0, 0, 0) solid;
+    background: #648FFF;
 }
 
 /* css reset */
@@ -29,18 +30,31 @@ h3 {
     padding: .2em 0;
 }
 
+li {
+    text-align: center;
+    min-width: 30%;
+    border: 2px rgb(0, 0, 0) solid;
+    background: #ff6480;
+}
+
 p {
     margin: 1.8em 0;
     line-height: 1.4em;
 }
-
 header,
-nav,
+nav {
+    padding: 1em;
+}
 main,
 aside,
 footer {
     padding: 1em;
-    border: 2px rgb(110, 108, 108) solid;
+    border: 2px rgb(0, 0, 0) solid;
+}
+
+main,
+footer {
+    margin: 10px;
 }
 
 header,
@@ -66,11 +80,9 @@ footer {
     "foot1    foot1   foot1";
 }
 
-header {grid-area: header1; background: #648FFF;}
-nav {grid-area: nav1; background: #DC267F;}
+header {grid-area: header1; background: rgba(175, 222, 176);;}
+nav {grid-area: nav1; background: rgba(175, 222, 176);}
 main {grid-area: main1; background: #FFB000;}
-#aside1 {grid-area: aside1; background: #785EF0;}
-#aside2 {grid-area: aside2; background: #785EF0;}
 footer {grid-area: foot1; background: #648FFF;}
 
 nav ul {
