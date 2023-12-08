@@ -1,5 +1,14 @@
+/* css reset */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background:white
+    background-color: rgba(175, 222, 176);
 }
 
 p {
@@ -15,14 +24,6 @@ h1, h2, h3, ul {
     background: #648FFF;
 }
 
-/* css reset */
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
 h1,
 h2,
@@ -30,9 +31,15 @@ h3 {
     padding: .2em 0;
 }
 
+a {
+    text-align: center;
+}
+
 li {
     text-align: center;
+    line-height: 50px;
     min-width: 30%;
+    height: 50px;
     border: 2px rgb(0, 0, 0) solid;
     background: #ff6480;
 }
@@ -50,6 +57,10 @@ aside,
 footer {
     padding: 1em;
     border: 2px rgb(0, 0, 0) solid;
+}
+
+main {
+    text-align: center;
 }
 
 main,
@@ -80,7 +91,7 @@ footer {
     "foot1    foot1   foot1";
 }
 
-header {grid-area: header1; background: rgba(175, 222, 176);;}
+header {grid-area: header1; background: rgba(175, 222, 176);}
 nav {grid-area: nav1; background: rgba(175, 222, 176);}
 main {grid-area: main1; background: #FFB000;}
 footer {grid-area: foot1; background: #648FFF;}
@@ -132,12 +143,17 @@ nav ul li {
         text-align: center;
     }
 
-    nav ul li a {
+    li {
+        line-height: 50px;
+        height: 50px;
+        border: 2px rgb(0, 0, 0) solid;
+        background: #ff6480;
+        margin-top: 10px;
+    }
+
+    .mainbox {
         display: block;
-        padding: 10px 5px;
-        margin: 5px;
-        border: 1px black solid;
-        background: white;
+        align-self: center;
     }
 }
 
