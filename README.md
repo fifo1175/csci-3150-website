@@ -1,2 +1,2 @@
-# csci-3150-website
+# Final Project for CSCI 3150
  
